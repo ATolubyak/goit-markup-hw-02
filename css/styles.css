@@ -1,47 +1,43 @@
-body{
+html{
+    scroll-behavior:smooth;
+}
+
+body { 
     margin: auto;
     font-family: 'Roboto';
     font-size: 14px;
+    font-weight: 400;
     background-color: #E5E5E5;
     color: #757575;
     letter-spacing: 0.02em;
-    line-height: 16px;
-}
+    line-height: 16px; }
     
 
 body a:hover {
     cursor: pointer;
-    color: #2196F3;}
+    color: #2196F3; }
 
     body a:focus {
-    color: #2196F3;
-}
+    color: #2196F3; }
 
 .contacts a{
     color: #757575;
 }
     
 body header li:hover {
-     color: #2196F3;
-}
+     color: #2196F3; }
 
 .logo:hover{
-    color: black;
-}
+    color: black; }
 .logo:focus {
-    color: black;
-}
+    color: black; }
     
 
 a { text-decoration: none;
-    font-family: 'Roboto';
     color: black;
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em; }
-
-
 
 
 ul{ list-style: none; }
@@ -61,18 +57,14 @@ header {
     width: 1170px;
     margin: auto; }
 
-.studio{
-    color: #2196F3;
-}
+.studio {
+    color: #2196F3; }
 .portfolio {
-    color: #2196F3;
-}
+    color: #2196F3; }
 
  .nvgtn {
     display: flex;
-    width: 532px;
-    
- }
+    width: 532px; }
 
 
 
@@ -107,22 +99,18 @@ header {
     display: inline-flex;
     padding-left: 0px;
     padding-top: 0px;
-    height: 16px; 
- }
+    height: 16px; }
 
 .nvgtn-site {
-    padding-right: 50px;
-    
- }
+    padding-right: 50px; }
 
 .contacts li{
     height: 16px;
-line-height: 16px; }
+    line-height: 16px; }
 
 .phone {
     margin-left: 50px;
-    width: 122px;
-}
+    width: 122px; }
 
 
 
@@ -164,11 +152,12 @@ line-height: 16px; }
     height: 50px;}
 
 .first-sctn button:hover{
-    cursor: pointer;
-}
+    cursor: pointer; }
+
+
 .first-sctn button:active {
-    background-color: #48abfc;
-}
+    background-color: #48abfc; }
+
 
 .text-btn {
     font-weight: 700;
@@ -176,8 +165,7 @@ line-height: 16px; }
     line-height: 30px;
     display: flex;
     margin: auto;
-    letter-spacing: 0.06em;
-}
+    letter-spacing: 0.06em; }
 
 /*ДРУГА СЕКЦІЯ*/
 
@@ -185,8 +173,7 @@ line-height: 16px; }
     margin-top: -40px;
     width: 1600px;
     height: 769px;
-    background-color: #FFFFFF;
-}
+    background-color: #FFFFFF; }
 
 .details {
     
@@ -194,18 +181,15 @@ line-height: 16px; }
     height: 101px;
     padding-top: 0px;
     margin-left:auto;
-    margin-right: auto;
-}
+    margin-right: auto; }
 
 .details ul{
     margin-top: 94px;
     height: min-content;
-    padding-top:-20px;
+    padding-top: 0px;
     display: inline-flex;
     padding-left: 0px;
-    padding-right: 0px;
-    
-}
+    padding-right: 0px; }
 
 .details li p {
     
@@ -216,8 +200,9 @@ line-height: 16px; }
     padding-left: 0px;
     padding-right:33px;
     padding-top: 0px;
-    line-height: 24px;
-}
+    line-height: 24px; }
+
+
 .details li h3 {
     margin-top: 0px;
     padding-top: 0px;
@@ -228,12 +213,8 @@ line-height: 16px; }
     padding-right: 30px;
     color: black;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-   
-}
+    text-transform: uppercase; }
 
 .foto-details {
     width: 1170px;
@@ -242,38 +223,38 @@ line-height: 16px; }
     margin-left: auto;
     margin-right: auto;
     margin-top: 184px;
-    padding: 0px;
-}
-.foto-details h2{
+    padding: 0px; }
+
+
+.foto-details h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    
-    color: #212121;
-}
+    color: #212121; }
 
 .foto-details ul {
     display: flex;
     padding: 0px;
-    padding-bottom: 0px;
-    
-}
+    padding-bottom: 0px; }
+
+
 .foto-details ul li {
     padding-right: 30px;
-    padding-bottom: 0px;
-}
+    padding-bottom: 0px; }
+
 
 .our-team{
     margin-top: -40px;
     width: 1600px;
     height: 648px;
-    background-color: #F5F4FA;
-}
+    background-color: #F5F4FA; }
+
+
 .our-team ul {
-    display: flex;
-}
+    display: flex; }
+
 
 .our-team h2{
 width: max-content;
@@ -285,25 +266,28 @@ font-size: 36px;
 line-height: 42px;
 letter-spacing: 0.03em;
 padding-bottom: 50px;
-color: #212121;
-}
+color: #212121; }
+
+
 
 .our-team ul {
     width: 1170px;
     padding-left: 0px;
     margin-top: -40px;
     margin-left: auto;
-    margin-right: auto;
-    
-}
+    margin-right: auto; }
+
+
 .our-team ul li {
     margin-right: 30px;
     background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-                0px 1px 1px rgba(0, 0, 0, 0.14), 
-                0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
+    box-shadow: 
+    0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px; }
+
+
 
 .our-team ul li h3 {
     font-weight: 500;
@@ -313,15 +297,16 @@ color: #212121;
     
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-}
+    color: #212121; }
+
+
 
 .our-team ul li p {
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 0px;
-    margin-bottom: 30px;
-}
+    margin-bottom: 30px; }
+
 
 
 footer {
@@ -329,58 +314,59 @@ footer {
     height: 252px;
     background-color: #2F303A;}
 
+
+
 footer a {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     
-    color: rgba(255, 255, 255, 0.6);
-}
+    color: rgba(255, 255, 255, 0.6); }
 
 
 footer ul li {
-    margin: 10px 0;
-}
-
- footer div {
-     display: flex;
-     width: 1170px;
-     margin-left: auto;
-     margin-right: auto;
-     padding-top: 60px;
-     margin-bottom: 20px;
- }
+    margin: 10px 0; }
 
 
-    footer .logo  {
+
+footer div {
+    display: flex;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    margin-bottom: 20px; }
+
+
+
+footer .logo  {
     width:fit-content;
     padding-top: 0px;
     margin-left: 0;
-    margin-right: auto;
-   
-    }
+    margin-right: auto; }
 
    
 
-    footer address {
-  
+footer address {  
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;}
 
-    footer address li{
-    margin-left: -40px; 
-    }
 
-    .google-maps {
-        color: #FFFFFF;
-    }
 
-    /* СТОРІНКА ПОРТФОЛІО*/
+footer address li{
+    margin-left: -40px;}
+
+
+
+.google-maps {
+    color: #FFFFFF; }
+
+
+
+/* СТОРІНКА ПОРТФОЛІО*/
 
 
 .porfolio-main {
@@ -388,55 +374,59 @@ footer ul li {
     height: fit-content;
     margin-top: -13px;
     background-color:#ffffff;
-    padding-bottom: 90px;
-}
+    padding-bottom: 90px; }
+
+
 .buttons {
-        display: flex;
-        width: max-content;
-        padding-left: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 94px;
-    }
+    display: flex;
+    width: max-content;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px; }
+
+
 .buttons li{
-        padding-right: 8px;
-    }
+    padding-right: 8px; }
+
+
 
 .name-button {
-        padding-left: 22px;
-        padding-right:22px;
-        padding-top: 6px;
-        height: 73px;
-        font-weight:bold;
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
-        letter-spacing: 0.03em;
-        
-        
-    }
+    padding-left: 22px;
+    padding-right:22px;
+    padding-top: 6px;
+    height: 73px;
+    font-weight:bold;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em; }
+
+
+
 .buttons li button {
     background: #F5F4FA;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px 
+    rgba(0, 0, 0, 0.1), 0px 1px 2px 
+    rgba(0, 0, 0, 0.08), 0px 2px 2px 
+    rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     border: #2196F3;
     height: 38px;
     cursor: pointer;
-    color: #000000;
-}
+    color: #000000;}
 
 .buttons li button:hover{
-        background: #2196F3;
-        box-shadow: 0px 3px 1px 
-        rgba(0, 0, 0, 0.1), 0px 1px 2px 
-        rgba(0, 0, 0, 0.08), 0px 2px 2px 
-        rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
-        border: #2196F3;
-        height: 38px;
-        cursor: pointer;
-        color: #FFFFFF;
-    }
+    background: #2196F3;
+    box-shadow: 0px 3px 1px 
+    rgba(0, 0, 0, 0.1), 0px 1px 2px 
+    rgba(0, 0, 0, 0.08), 0px 2px 2px 
+    rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: #2196F3;
+    height: 38px;
+    cursor: pointer;
+    color: #FFFFFF;}
 
 .buttons li button:focus {
     background: #2196F3;
@@ -445,8 +435,9 @@ footer ul li {
     border: #2196F3;
     height: 38px;
     cursor: pointer;
-    color: #FFFFFF;
-}
+    color: #FFFFFF; }
+
+
 .buttons li button:active {
     background: #4faefc;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -454,23 +445,23 @@ footer ul li {
     border: #2196F3;
     height: 38px;
     cursor: pointer;
-    color: #FFFFFF;
-}
+    color: #FFFFFF; }
 
 .portfolio-cards {
-width: 1170px;
-margin: auto;
-padding-left: 0px;
-height: fit-content;
-}
+    width: 1170px;
+    margin: auto;
+    padding-left: 0px;
+    height: fit-content; }
+
 
 .portfolio-cards ul{
     width: 1170px;
     padding-left: 0px;
     padding-top: 0px;
     margin-top: 0px;
-    height: 1260px;
-}
+    height: 1260px; }
+
+
 .portfolio-cards ul ul{
     display: flex;
     width: 1170px;
@@ -478,18 +469,18 @@ height: fit-content;
     padding-top: 0px;
     height: 1260px;
     height: fit-content;
-    margin-top: 30px;
-}
+    margin-top: 30px; }
 
 
 .portfolio-cards ul ul li {
-   box-sizing: border-box;
-   width: 371px;
+    box-sizing: border-box;
+    width: 371px;
     height: 404px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
-   margin-right: 30px;
-}
+    margin-right: 30px; }
+
+
 
 .portfolio-cards ul li h2 {
     text-align: left;
@@ -499,15 +490,15 @@ height: fit-content;
     line-height: 36px;
     letter-spacing: 0.06em;
     padding-left: 24px;
-    margin-top: 10px;
-}
+    margin-top: 10px; }
 
-.portfolio-cards ul li p
-{
+.portfolio-cards ul li p {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
     padding-left: 24px;
-    margin-top: 4px;
-    
+    margin-top: 4px; }
+
+#contacts {
+    scroll-behavior:initial;
 }
